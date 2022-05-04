@@ -43,7 +43,7 @@ const Skills = () => {
 
   return (
     <div className="skills-card">
-      <h1 className="skills-heading">Skills</h1>
+      <h1 className="skills-heading">Unknown Message</h1>
       <ul className="list-inline dev-icons">
         {skills.map((skill) => (
           <li className="list-inline-item">{skill}</li>

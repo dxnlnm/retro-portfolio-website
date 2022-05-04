@@ -1,10 +1,8 @@
 import profile_pic from "../../../assets/images/profile.jpg";
 import {
-  FaLinkedinIn,
-  FaGithub,
   FaKaggle,
   FaTwitter,
-  FaMediumM,
+  FaDiscord,
 } from "react-icons/fa";
 const Info = () => {
   return (
@@ -13,48 +11,21 @@ const Info = () => {
         <img className="profile-pic" src={profile_pic} alt="Yajat Malhotra"/>
       </div>
       <div className="about-me">
-        <h1>Yajat Malhotra</h1>
+        <h1>Introduction</h1>
         <br />
         <p className="profile-description">
-          Hey there! I am freshman at Vellore Institute of
-          Technology. My career aspiration is to provide digital solutions for
-          real-life human and business problems utilizing my knowledge in AI and
-          Machine Learning, and Android Development. Other than tech, I enjoy
-          photography and film-making.
+        The Super Space Defenders is an upcoming NFT Collection consisting on 8,888 cloned individuals with different personalities, political affinities and visuals. They’re mainly divided in two groups: The Elites and The Citizens. The Elites are a group of wealthy Families that govern the galaxy while the Citizens are the workforce of the galaxy, living under the Elite’s rules. But... where is the Rebellion?
         </p>
         <br />
         <div className="social-icons">
-          <a
-            className="social-icon"
-            href="https://linkedin.com/in/iamyajat"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaLinkedinIn />
-          </a>
-          <a
-            className="social-icon"
-            href="https://github.com/iamyajat"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaGithub />
-          </a>
-          <a
-            className="social-icon"
-            href="https://kaggle.com/iamyajat"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaKaggle />
-          </a>
+          
           <a
             className="social-icon"
             href="https://iamyajat.medium.com"
             target="_blank"
             rel="noreferrer"
           >
-            <FaMediumM />
+            <FaDiscord />
           </a>
           <a
             className="social-icon"

@@ -9,9 +9,8 @@ const Project = ({ project }) => {
     <div className={`project-card ${project.show ? "" : "hide-card"}`}>
       <h1>{project.title}</h1>
       <p>{project.description}</p>
-
       <Button
-        text="View Project"
+        text="View Profile"
         onClick={openProject}
         design={`project-btn ${project.show ? "" : "hide-btn"}`}
       />

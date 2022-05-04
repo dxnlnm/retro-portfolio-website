@@ -1,14 +1,13 @@
 import Education from "./Education"
 import Info from "./Info"
-import Skills from "./Skills"
+import Unknown from "./Unknown"
 import ReactTooltip from "react-tooltip";
 
 const About = ({openMenu}) => {
   return (
     <div className={`portfolio-section opened-menu-${openMenu}`}>
       <Info />
-      <Skills />
-      <Education />
+      <Unknown />
       <ReactTooltip place="bottom" className="tooltip" />
     </div>
   );

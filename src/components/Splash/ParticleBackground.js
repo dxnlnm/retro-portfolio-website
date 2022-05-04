@@ -14,11 +14,11 @@ const ParticleBackground = () => {
               },
             },
             size: {
-              value: 1.8,
+              value: 3,
               random: true,
               anim: {
                 speed: 4,
-                size_min: 0.3,
+                size_min: 1.8,
               },
             },
             line_linked: {
