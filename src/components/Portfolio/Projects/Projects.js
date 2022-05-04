@@ -17,7 +17,7 @@ const Projects = ({openMenu}) => {
       title: "VANGLOG",
       description:
         "Community Manager and MACO’s right hand. Vanglog comes from the crypto space, where he has been around since 2017. He came across the NFT world in December of 2020, and since then, he has been interacting with the NFT community: trying to learn as much as he can, exchanging ideas and making new friends every day, while also helping out across various communities in this space.",
-      link: "https://twitter.com/SSDefendersNFT,
+      link: "https://twitter.com/SSDefendersNFT",
       show: true,
     },
     {
