@@ -21,7 +21,7 @@ const Info = () => {
           
           <a
             className="social-icon"
-            href="https://iamyajat.medium.com"
+            href="https://discord.com/invite/ssdefenders"
             target="_blank"
             rel="noreferrer"
           >
@@ -29,7 +29,7 @@ const Info = () => {
           </a>
           <a
             className="social-icon"
-            href="https://twitter.com/iamyajat"
+            href="https://twitter.com/SSDefendersNFT?"
             target="_blank"
             rel="noreferrer"
           >
